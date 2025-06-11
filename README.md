@@ -1,13 +1,13 @@
-# SMS/Email Spam Detection - BERT Trasformer and Naive Bayes Classifier
+# SMS/Email Spam Detection - BERT Transformer and Naive Bayes Classifier
 
-This repository contains two Jupyter Notebooks demonstrating SMS/email spam detection using two different approaches: a traditional Naive Bayes classifier and a fine-tuned BERT model. The BERT model is available on Hugging Face: [SGHOSH1999/bert-email-spam-classifier_tuned](https://huggingface.co/SGHOSH1999/bert-email-spam-classifier_tuned).
+This repository provides two Jupyter Notebooks demonstrating SMS/email spam detection using both a traditional Naive Bayes classifier and a fine-tuned BERT model. The BERT model is available on Hugging Face: [SGHOSH1999/bert-email-spam-classifier_tuned](https://huggingface.co/SGHOSH1999/bert-email-spam-classifier_tuned).
 
 ---
 
 ## Notebooks Overview
 
-### 1. Naive Bayes Spam Classifier (`naive_bayes_spam_classifier.ipynb`)
-- **Purpose:** Introduces a classic machine learning approach for spam detection using the Multinomial Naive Bayes algorithm.
+### 1. Naive Bayes Spam Classifier (`SPAM-Message-Classification-ML.ipynb`)
+- **Purpose:** Presents a classic machine learning approach for spam detection using the Multinomial Naive Bayes algorithm.
 - **Workflow:**
     - Data preprocessing (cleaning, tokenization, vectorization with TF-IDF)
     - Model training and evaluation
