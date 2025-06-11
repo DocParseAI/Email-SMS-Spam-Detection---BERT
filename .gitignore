@@ -1,0 +1,15 @@
+# Ignore model files
+Model/
+model/
+models/
+
+# Ignore embeddings
+Embeddings/
+embeddings/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Glove-Embeddings/glove.6B.100d.txt
